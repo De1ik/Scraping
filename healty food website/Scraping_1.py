@@ -66,6 +66,7 @@ with open('all_categories_dict.json', 'r', encoding='UTF-8') as f:
 
 # itterations_count = 101
 count = 0
+
 print(f'Total iterations: {itterations_count}')
 for categories_name in all_categories:
         for categories_link in all_categories[categories_name]:
