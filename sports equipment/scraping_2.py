@@ -83,7 +83,7 @@ for page in all_pages:
     cur_page += 1
 
 
-with open('data/all_products_dict.json', 'a', encoding='UTF-8') as f:
+with open('data/all_products_dict.json', 'w', encoding='UTF-8') as f:
     json.dump(all_info, f, indent=4, ensure_ascii=False)
 
 print(f'successfully completed')
