@@ -1,0 +1,1 @@
+We gather information from website in jpg format and in a result represent it in pdf file
