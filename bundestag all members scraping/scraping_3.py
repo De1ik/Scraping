@@ -37,7 +37,7 @@ with open('all_links.html', 'r', encoding='utf-8') as f:
 
 soup = BeautifulSoup(src, 'lxml')
 
-# get the personal link for each member
+#  get the personal link for each member
 all_links = soup.find_all('a')
 with open('all_members_links.txt', 'w', encoding='utf-8') as f:
     for i in all_links:
